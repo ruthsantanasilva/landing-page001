@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" href="estilos/fotos.css" />
+    <title>1º Projeto - Landing Page Ricco Senna</title>
+</head>
+
+<body>
+    <header>
+        <img id="text0" src="imagens/ricco.png" alt="Ricco">
+        <div id="text1">
+            <h1 class="tit">Ricco Senna</h1>
+            <h2>Seu mestre no Mercado Financeiro</h2>
+            <p>Lorem ipsum , conseelit. Dolor voluptas atque, veritatis nemo quidem necessitatibus?</p>
+
+            <a href="#" class="botao">Entre em contato</a>
+
+            <p class="sem">
+                Sem truques, apenas conselhos amigáveis.
+            </p>
+        </div>
+
+    </header>
+
+    <section>
+        <h1 class="imp">Confira o impacto real na vida dos meus mentorados</h1> <br>
+        <hr>
+        <div id="album">
+            <ul id="album-fotos">
+                <li id="foto01"><span>Prova social 01</span></li>
+                <li id="foto02"><span>Prova social 02</span></li>
+                <li id="foto03"><span>Prova social 03</span></li>
+                <li id="foto04"><span>Prova social 04</span></li>
+                <li id="foto05"><span>Prova social 05</span></li>
+                <li id="foto06"><span>Prova social 06</span></li>
+            </ul>
+        </div>
+        <hr><br>
+    </section>
+
+
+
+    <section id="text">
+        <form action="cadastro.php" method="post" id="fContato">
+
+
+            <legend>Vagas limitadas!<br><br> Inscreva-se abaixo e garanta seu desconto.</legend>
+
+            <div class="campo">
+                <label for="iNome">Nome:</label>
+                <input type="text" name="nome" id="inome" placeholder="Nome Completo" required maxlength="40" />
+            </div>
+
+            <div class="campo">
+                <label for="imail">E-mail:</label>
+                <input type="email" name="mail" id="imail" size="20" maxlength="40" autocomplete="email" required
+                    placeholder="Seu e-mail mais utilizado" />
+            </div>
+
+            <div class="campo">
+                <label for="inum">Celular:</label>
+                <input type="tel" name="num" id="inum" size="20" maxlength="11" required placeholder="( )_____-____" />
+            </div>
+
+            <input type="submit" id="botac" value="Enviar" />
+
+        </form>
+
+        <div id="text2">
+            <h1 class="tit1">Mentoria <br> Ricco Senna</h1>
+            <h2 class="tit2"> Lista de desconto de 20% para novos alunos na Black Friday! </h2>
+            <p>Ao deixar seus dados no formulário, nossa equipe entrará em contato imediatamento para confirmar
+                a sua inscrição e informar mais detalhes sobre a mentoria. </p>
+            <p> O desconto será válido para novos alunos que fecharem a matrícula até 31 de dezembro de 2023.
+            </p>
+        </div>
+    </section>
+
+    <footer id="rodape">
+        <p>Copyright &copy; 2023 - by Ruth Santana<br /></br>
+            <a href="http://facebook.com" target="_blank">Facebook</a> | <a href="http://twitter.com"
+                target="_blank">Twitter</a> | <a href="http://instagram.com" target="_blank">Instagram</a>
+        </p>
+    </footer>
+
+</body>
+
+</html>
