@@ -18,8 +18,8 @@ ul#album-fotos {
 
 ul#album-fotos li {
     float: left;
-    width: 150px;
-    height: 250px;
+    width: 120px;
+    height: 220px;
     margin: 10px;
     border: 1px solid white;
     background-color: white;
@@ -33,7 +33,7 @@ ul#album-fotos li span {
 ul#album-fotos li#foto01 {
     background: url('../imagens/fotoum.jpeg') no-repeat;
     background-position: 50% 50%;
-    background-size: 170px 270px;
+    background-size: 120px 220px;
 }
 
 ul#album-fotos li#foto01:hover {

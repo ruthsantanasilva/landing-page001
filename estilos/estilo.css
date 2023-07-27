@@ -19,8 +19,8 @@ header {
     font-family: 'Raleway';
     position: relative;
     display: inline-block;
-    width: 96vw;
-    height: 350px;
+    width: 90vw;
+    height: 320px;
     padding: 20px;
     background-color: blue;
     color: white;
@@ -30,15 +30,13 @@ header {
 }
 
 #text1 {
-    max-width: 280px;
-    height: 400px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 img {
     margin-top: -20px;
-    width: 270px;
-    height: 390px;
+    width: 248px;
+    height: 360px;
     float: right;
 }
 
@@ -51,29 +49,24 @@ img {
 h2 {
     margin-top: 10px;
     font-size: 1.2em;
-}
-
-p {
-    margin-top: 15px;
     margin-bottom: 30px;
-    font-size: 0.8em;
 }
 
 p.sem {
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
     font-size: 0.8em;
 }
 
 a.botao {
+    padding: 12px;
     font-family: 'DM Serif Text';
-    padding: 10px 30px;
     background-color: azure;
     text-decoration: none;
     border-radius: 10px;
     border: 2px solid #0099cc5e;
     color: black;
-    font-size: 16px;
+    font-size: 13px;
     cursor: pointer;
     transition-duration: 0.4s;
 }
@@ -94,8 +87,8 @@ section#text {
     font-family: 'Raleway';
     position: relative;
     display: inline-block;
-    width: 97vw;
-    height: 450px;
+    width: 90vw;
+    height: 340px;
     padding: 20px;
     background-color: blue;
     color: white;
@@ -116,8 +109,8 @@ section#text {
     color: black;
     margin-left: 5px;
     margin-right: 25px;
-    width: 262px;
-    height: 430px;
+    width: 220px;
+    height: 334px;
     float: right;
     border-radius: 10px;
     padding: 10px;
@@ -128,7 +121,7 @@ legend {
     font-size: 1em;
     font-weight: bolder;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -140,31 +133,34 @@ label {
 
 .campo {
     font-family: 'Raleway';
-    margin: 20px;
+    margin: 7px;
 }
 
 input {
     font-family: 'Raleway';
-    width: 210px;
-    height: 40px;
+    width: 200px;
+    height: 25px;
     border-radius: 10px;
     border-style: none;
 }
 
 .tit1 {
     font-family: 'DM Serif Text';
-    font-size: 1.8em;
+    font-size: 1em;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
 .tit2 {
-    font-size: 1em;
+    font-size: 0.8em;
+}
+p{
+    font-size: .6em;
 }
 
 #botac {
-    margin: 25px;
-    width: 240px;
+    margin: 6px;
+    width: 210px;
     height: 40px;
     font-family: 'DM Serif Text';
     color: white;
@@ -181,12 +177,11 @@ input {
 
     color: black;
     background-color: #008CBA;
-    ;
-
 
 }
 
 footer#rodape {
+    margin-top: 20px;
     text-align: center;
     font-size: 1em;
     font-family: 'Raleway';
