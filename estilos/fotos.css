@@ -18,8 +18,8 @@ ul#album-fotos {
 
 ul#album-fotos li {
     float: left;
-    width: 170px;
-    height: 270px;
+    width: 150px;
+    height: 250px;
     margin: 10px;
     border: 1px solid white;
     background-color: white;

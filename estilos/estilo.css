@@ -19,7 +19,7 @@ header {
     font-family: 'Raleway';
     position: relative;
     display: inline-block;
-    width: 97vw;
+    width: 96vw;
     height: 350px;
     padding: 20px;
     background-color: blue;
@@ -30,21 +30,21 @@ header {
 }
 
 #text1 {
-    max-width: 300px;
+    max-width: 280px;
     height: 400px;
     margin-left: 10px;
 }
 
 img {
     margin-top: -20px;
-    width: 288px;
+    width: 270px;
     height: 390px;
     float: right;
 }
 
 .tit {
     font-family: 'DM Serif Text';
-    font-size: 2.3em;
+    font-size: 2em;
 
 }
 
@@ -105,7 +105,7 @@ section#text {
 }
 
 #text2 {
-    max-width: 300px;
+    max-width: 200px;
     height: 400px;
     margin-left: 5px;
 }
@@ -116,7 +116,7 @@ section#text {
     color: black;
     margin-left: 5px;
     margin-right: 25px;
-    width: 272px;
+    width: 262px;
     height: 430px;
     float: right;
     border-radius: 10px;
@@ -145,7 +145,7 @@ label {
 
 input {
     font-family: 'Raleway';
-    width: 248px;
+    width: 210px;
     height: 40px;
     border-radius: 10px;
     border-style: none;
