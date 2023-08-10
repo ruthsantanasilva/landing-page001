@@ -1,0 +1,232 @@
+@charset "utf=8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    header {
+        width: 91vw;
+        height: 350px;
+    }
+
+    img {
+        width: 290px;
+        height: 390px;
+        float: right;
+        margin-right: 60px;
+    }
+
+    #text1 {
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+
+    h2{
+        margin-bottom: 50px;
+        font-size: 1em;
+    }
+
+    p.sem {
+        margin-top: 50px;
+        margin-left: 5px;
+        font-size: 0.9em;
+    }
+    
+    a.botao {
+        padding: 18px;
+        font-size: 16px;
+    }
+
+    div#album{
+
+        width: 86vw;
+    }
+
+    section#text {
+        width: 91vw;
+        text-align: center;
+    }
+    
+    #text2 {
+        max-width: 250px;
+        margin-left: 100px;
+    }
+    
+    #fContato {
+        margin-right: 50px;
+        width: 300px;
+        height: 340px;
+        float: right;
+    }
+
+    legend {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    
+    .campo {
+        margin: 15px;
+    }
+    
+    input {
+        width: 200px;
+        height: 30px;
+    }
+    
+    .tit1 {
+        font-size: 2em;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    
+    .tit2 {
+        font-size: 1em;
+    }
+    p{
+        font-size: .8em;
+    }
+    
+    #botac {
+        margin-left: 50px;
+        width: 200px;
+        height: 50px;
+    
+    }
+    
+    ul#album-fotos {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 80px;
+    
+    }
+    
+    ul#album-fotos li {
+        float: left;
+        width: 200px;
+        height: 230px;
+        margin: 10px;
+   
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    header {
+        width: 89vw;
+        height: 380px;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    img {
+        width: 285px;
+        height: 420px;
+        float: right;
+        margin-right: 180px;
+    }
+
+    #text1 {
+        margin-top: 25px;
+        margin-left: 200px;
+        text-align: center;
+    }
+
+    .tit {
+        font-size: 3em;
+        text-align: center;
+    }
+    h2{
+        margin-top: 20px;
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    p.sem {
+        margin-top: 40px;
+        font-size: 0.9em;
+        text-align: center;
+    }
+   
+    a.botao {
+        padding: 18px;
+        font-size: 16px;
+    }
+
+    div#album{
+        width: 95vw;
+    }
+
+    section#text {
+        width: 89vw;
+        text-align: center;
+        margin-right: -300px;
+        margin-left: 50px;
+    }
+    
+    #text2 {
+        max-width: 300px;
+        margin-left: 200px;
+    }
+    
+    #fContato {
+        margin-right: 120px;
+        width: 295px;
+        height: 340px;
+        float: right;
+    }
+
+    legend {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    
+    .campo {
+        margin: 15px;
+    }
+    
+    input {
+        width: 200px;
+        height: 30px;
+    }
+    
+    .tit1 {
+        font-size: 2em;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    
+    .tit2 {
+        font-size: 1em;
+    }
+    p{
+        font-size: .8em;
+    }
+    
+    #botac {
+        margin-left: 50px;
+        width: 200px;
+        height: 50px;
+    
+    }
+    
+    ul#album-fotos {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 70px;
+    
+    }
+    
+    ul#album-fotos li {
+        float: left;
+        width: 250px;
+        height: 290px;
+        margin: 10px;
+   
+    }
+
+}
