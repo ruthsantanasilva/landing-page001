@@ -9,6 +9,8 @@
 * {
     margin: 0px;
     padding: 0px;
+    transition: width .1s, height .1s;
+    transition-timing-function: ease;
 }
 
 body {
@@ -54,7 +56,7 @@ h2 {
     margin-bottom: 40px;
 }
 
-hr{
+hr {
     margin-top: 20px;
 }
 
@@ -162,7 +164,8 @@ input {
 .tit2 {
     font-size: 0.8em;
 }
-p{
+
+p {
     font-size: .7em;
 }
 
