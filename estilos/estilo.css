@@ -49,6 +49,10 @@ img {
     font-size: 1.6em;
 
 }
+h1{
+    text-align: center;
+    font-size: 2em;
+}
 
 h2 {
     margin-top: 10px;
@@ -137,7 +141,7 @@ legend {
 
 label {
     font-family: 'Raleway';
-    font-size: 1em;
+    font-size: .8em;
     font-weight: bold;
 }
 

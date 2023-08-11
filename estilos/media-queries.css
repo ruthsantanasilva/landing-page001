@@ -59,7 +59,9 @@
         margin-bottom: 20px;
         margin-top: 10px;
     }
-
+    label {
+        font-size: 0.8em; 
+    }
     .campo {
         margin: 15px;
     }
@@ -84,9 +86,9 @@
     }
 
     #botac {
-        margin-left: 50px;
+        margin-left: 20px;
         width: 200px;
-        height: 50px;
+        height: 40px;
 
     }
 
