@@ -38,7 +38,7 @@ header {
 
 img {
     margin-top: -20px;
-    width: 200px;
+    width: 196px;
     height: 320px;
     float: right;
     margin-right: 3px;
@@ -46,7 +46,7 @@ img {
 
 .tit {
     font-family: 'DM Serif Text';
-    font-size: 1.8em;
+    font-size: 1.6em;
 
 }
 
@@ -56,10 +56,9 @@ h2 {
     margin-bottom: 40px;
 }
 
-hr {
-    margin-top: 20px;
+hr{
+    margin-top: 15px;
 }
-
 
 p.sem {
     margin-top: 22px;
@@ -157,13 +156,13 @@ input {
 
 .tit1 {
     font-family: 'DM Serif Text';
-    font-size: 1em;
+    font-size: 0.9em;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
 .tit2 {
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 
 p {
